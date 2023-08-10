@@ -2,7 +2,7 @@
 - 😅 Learning to code from scratch.
 - 👨‍💻 Starting with Arduino.
 - 📫 Feel free to reach out to me on Discord!
--       discordTag = "@t_royale03";
+-      char discordTag = "@t_royale03";
 - 📘 I'll be using github to store my projects.
 - 👻 All of them are public so anyone can have a look at them.
 - 🗣 Speak Spanish and english.
