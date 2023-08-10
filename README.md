@@ -1,10 +1,11 @@
 - 👋 Hi, I’m @T-Royale.
 - 😅 Learning to code from scratch.
-- 👨‍💻 Starting with Arduino .
+- 👨‍💻 Starting with Arduino.
 - 📫 Feel free to reach out to me on Discord!
--     const char discordTag = "@t_royale03";
-- 🗣 Speaking Spanish and english.
-- 👻 I'll be publishing my projects here if they're usefull for anybody.
+-       char discordTag = "@t_royale03";
+- 🗣 Speak Spanish and english.
+- 📘 I'll be using github to store my projects.
+- 👻 Also, I will make my projects public so anyone can have a look at them.
 
 
 
