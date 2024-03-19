@@ -6,4 +6,5 @@
 - 📘 I'll be using github to store my projects.
 - 👻 They are public so you can have a look at them.
 - 🚗 I also make random things on Thingiverse
+- https://www.thingiverse.com/t_royale/designs
 - 🗣 Speak Spanish and English.
