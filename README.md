@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @T-Royale.
+- ## 👋 Hi, I’m @T-Royale.
 - 😅 Learning to code on my own.
 - 👨‍💻 Starting with Arduino and C.
 - 📘 I'll be using github to store my projects.
