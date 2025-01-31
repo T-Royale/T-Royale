@@ -8,7 +8,8 @@
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/t4D9dBf/Spain.png" alt="Spain" border="0"></a> <a href="https://imgbb.com/"><img src="https://i.ibb.co/NnKPkFK/USA.png" alt="USA" border="0"></a>
 
 # 👨‍💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
+<img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="50" height="50"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="50" height="50"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> 
 # 📊 Stats:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=T-Royale&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
