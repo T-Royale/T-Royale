@@ -1,5 +1,14 @@
+body {
+  background-color: #00d9ff52;
+}
+
 .imagen_construccion {
   width: 300px;
   border: 2px solid #00aeff;
   border-radius: 10px;
+}
+
+.source_code {
+    color:#00aeff;
+    font-size: small;
 }
