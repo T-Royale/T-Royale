@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",                     // Puedes cambiarlo por otro como "es5", "es2020", etc.
+      "module": "commonjs",                // O "esnext", "amd", etc. según tus necesidades
+      "rootDir": "./TypeScript",           // Carpeta donde están los .ts
+      "outDir": "./Scripts",               // Carpeta donde se guardarán los .js compilados
+      "strict": true,                      // Activa todas las comprobaciones estrictas
+      "esModuleInterop": true,            // Para compatibilidad con módulos CommonJS
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["TypeScript/**/*.ts"],     // Incluye todos los archivos .ts en esa carpeta
+    "exclude": ["node_modules"]            // Excluye la carpeta node_modules
+}
+  

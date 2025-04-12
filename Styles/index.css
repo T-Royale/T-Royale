@@ -1,0 +1,32 @@
+body {
+	background-color: #00d9ff52;
+	justify-self: center;
+	text-align: center;
+}
+
+.imagen_construccion {
+	width: 45vw;
+	border: 0.45vw solid #00aeff;
+	border-radius: 2.5%;
+}
+
+#barra {
+	background-color: blue;
+	border-radius: 3px;
+	border-color: blue;
+	width: 60vw;
+	height: 5px;
+	justify-self: center;
+	margin: 25px;
+}
+	#source_code_btn {
+	background-color:cornflowerblue;
+	border-width: 5px;
+	border-radius: 3px;
+	color:#ffffff;
+	font-size: 1.5vw;
+	transition: all 0.3s ease-in-out;
+}
+#source_code_btn:hover {
+	font-size: 1.7vw;
+}
