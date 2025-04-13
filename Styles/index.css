@@ -1,32 +1,79 @@
 body {
-	background-color: #00d9ff52;
+	background-color: #181818;
 	justify-self: center;
 	text-align: center;
+	font-family: AgaveNerdFont;
 }
-
-.imagen_construccion {
-	width: 45vw;
-	border: 0.45vw solid #00aeff;
-	border-radius: 2.5%;
+.selectLanguage {
+	position: absolute;
+	top: 2vh;
+	right: 1vw;
 }
-
-#barra {
-	background-color: blue;
+.flag {
+	height: 6vh;
+	width: 5vw;
+}
+#textoDePrueba {
+	color: #ffffff;
+	font-size: 32px;
+	text-align: justify;
+	line-height: 150%;
+	padding-left: 3vw;
+	padding-right: 6vw;
+}
+.bigText {
+	font-size: 300%;
+	color: #ffffff;
+}
+#barraHorizontal {
+	background-color: gray;
 	border-radius: 3px;
-	border-color: blue;
 	width: 60vw;
 	height: 5px;
 	justify-self: center;
 	margin: 25px;
 }
-	#source_code_btn {
-	background-color:cornflowerblue;
-	border-width: 5px;
-	border-radius: 3px;
-	color:#ffffff;
-	font-size: 1.5vw;
+.apartado {
+	font-family: AgaveNerdFont;
+	font-style: bold;
+	font-size: 4vh;
+}
+.apartado::first-letter{
+	font-size: 4.2vh;
+}
+#sobreMi {
+	color: #0084ff;
+}
+#stack {
+	color: yellow
+}
+#leftBar {
+    position: fixed;
+    top: 50%;
+    right: 1vw;
+    transform: translateY(-50%);
+    width: 4vw; /* Ajusta el ancho según necesites */
+    height: 60vh; /* Ajusta la altura que quieras que tenga la barra */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 10px; /* Bordes redondeados del lado izquierdo */
+}
+.leftBar_icon {
+	width: 3vw;
+	border-width: 3px;
+	border-radius: 10px;
+	flex-grow: 1;
 	transition: all 0.3s ease-in-out;
 }
-#source_code_btn:hover {
-	font-size: 1.7vw;
+#GitHub:hover {
+	box-shadow: 0px 0px 20px rgb(195, 0, 255);
+}
+#Discord:hover {
+	box-shadow: 0px 0px 20px rgb(0, 132, 255);
+}
+#Gmail:hover {
+	box-shadow: 0px 0px 20px rgb(255, 0, 0);
 }
