@@ -1,0 +1,26 @@
+body {
+	background-color: #181818;
+	justify-self: center;
+	text-align: center;
+	font-family: AgaveNerdFont;
+}
+.title {
+	font-size: 5.75vh;
+	color: #ffffff;
+}
+#contentDivider {
+	background-color: gray;
+	border-radius: 3rem;
+	width: 60vw;
+	height: 0.5vh;
+	justify-self: center;
+	margin: 2.5vh;
+}
+#texto {
+	color: #ffffff;
+	font-size: 3.5vh;
+	text-align: justify;
+	line-height: 150%;
+	padding-left: 3vw;
+	padding-right: 6vw;
+}

@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>T_Royale</title>
-	<link rel="icon" href="/favicon.png" type="image/png">
+	<link rel="icon" href="favicon.png" type="image/png">
 	<link rel="stylesheet" href="/Styles/index.css">
 	<link rel="stylesheet" href="/Styles/fonts.css">
+	<link rel="stylesheet" href="/Styles/sideBar.css">
+	<link rel="stylesheet" href="/Styles/languageSelector.css">
+	<link rel="stylesheet" href="/Styles/generic.css">
+	<script src="/Scripts/index.js" defer></script>
 </head>
 <body>
-	<div class="selectLanguage">
-		<a href="/index.html">
-			<img src="/Images/English.png" class="flag">
-		</a>
-	</div>
 	<div>
-		<h1 class="bigText">Hi, I'm Teo!</h1>
+		<h1 class="title">Hi, I'm Teo!&nbsp;<span id="hi">󱠢 &nbsp;</span></h1>
 	</div>
-	<div id="barraHorizontal"></div>
+	<a href="/index.html">
+		<img src="/Images/Spanish.png" class="flag hidden">
+		<img src="/Images/English.png" class="flag shown">
+	</a>
+	<div id="contentDivider"></div>
 	<!--Texto de prueba-->
-	<div id="textoDePrueba">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet orci eu ante volutpat suscipit. Quisque vestibulum, leo nec cursus aliquet, velit magna varius nisi, a tincidunt mi ligula id lorem. Morbi aliquet nulla sit amet urna gravida, et tincidunt ante viverra. Fusce sed orci a metus convallis ullamcorper. Nulla facilisi. Vivamus id arcu non arcu luctus facilisis sit amet vel felis. Integer et nulla orci. Nulla posuere orci at risus congue malesuada. Donec sit amet vestibulum ipsum.
+	<div id="texto">
+		<p class="apartado" id="sobreMi"> &nbsp;About me:</p>
+		<p class="puntosSobreMi">
+			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet orci eu ante volutpat suscipit. Quisque vestibulum, leo nec cursus aliquet, velit magna varius nisi, a tincidunt mi ligula id lorem. Morbi aliquet nulla sit amet urna gravida, et tincidunt ante viverra. Fusce sed orci a metus convallis ullamcorper.
 		</p>
-
-		<p>
-			Sed hendrerit nisl ut felis fermentum, sit amet facilisis dui luctus. Nam auctor lectus ac nulla euismod, a pretium nisi faucibus. Fusce dictum lorem nec mi interdum, vel venenatis urna tristique. Nulla at libero sit amet lorem luctus vestibulum a ac eros. Cras ac posuere ligula. Ut non risus a purus dictum scelerisque sit amet id sapien. Nunc id ante nulla. Nam porttitor libero et risus fermentum, eget varius ante iaculis. Fusce suscipit turpis et lacus dapibus, eget euismod nulla feugiat. Nulla consectetur est in erat vehicula feugiat.
+		<p class="apartado" id="techStack"> &nbsp;Tech stack:</p>
+		<p class="puntosTech">
+			 Sed hendrerit nisl ut felis fermentum, sit amet facilisis dui luctus.
 		</p>
-		
-		<p>
-			Integer vel ante a urna pharetra dignissim vel ac lacus. Aliquam feugiat massa non feugiat vulputate. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean at tincidunt erat. Morbi auctor turpis felis, non aliquet tortor euismod sed. Phasellus ultricies auctor erat, sed vestibulum ante volutpat ut. Curabitur in magna vitae nisi convallis hendrerit. Donec dictum velit vel mi interdum maximus. Etiam lacinia ligula sapien, ac rutrum leo lobortis id. Ut ut lectus ut libero maximus egestas.
-		</p>
-		
-		<p>
-			Quisque non bibendum augue. Donec ullamcorper lectus neque, a ultricies lectus iaculis ac. Sed pretium leo non libero tincidunt, at maximus odio congue. Nunc gravida, enim id varius vulputate, arcu dui tincidunt risus, et iaculis nulla velit a velit. Aenean in neque quis neque dapibus elementum. Curabitur non sem felis. Vivamus ornare, neque in rutrum viverra, magna urna rutrum odio, id placerat justo lorem nec libero. Donec nec sem eget dui lacinia hendrerit sit amet at nunc. Integer sit amet augue eu purus facilisis maximus. In a gravida mi.
-		</p>
-		
-		<p>
-			Nam lacinia nunc ac nisi pharetra, vel dictum mi egestas. Nulla fermentum felis et arcu hendrerit, sed condimentum libero facilisis. Vivamus malesuada tincidunt ipsum, in volutpat leo ultricies sit amet. Aliquam lobortis tristique quam, sit amet dapibus sapien tempus eu. Suspendisse eu metus sit amet dui lobortis posuere vel a nulla. Cras mollis, libero ac malesuada convallis, purus eros posuere magna, sed pharetra odio augue eu risus. Integer condimentum, justo ac venenatis feugiat, odio risus ultricies augue, nec auctor sapien dui vel ligula.
-		</p>
+		<div id="techDescription">
+			Prueba1: Este es un lenguaje
+		</div>
+		<div id="techIcons">
+			<img src="https://skillicons.dev/icons?i=arduino&theme=dark" class="techIcon" id="inoTechIcon">
+			<img src="https://skillicons.dev/icons?i=c&theme=dark" class="techIcon" id="cTechIcon">
+			<img src="https://skillicons.dev/icons?i=git&theme=dark" class="techIcon" id="gitTechIcon">
+			<img src="https://skillicons.dev/icons?i=linux&theme=light" class="techIcon" id="linuxTechIcon">
+			<img src="https://skillicons.dev/icons?i=raspberrypi&theme=light" class="techIcon" id="rpiTechIcon">
+		</div>
 	</div>
 	<!--/Texto de prueba/-->
 	<!--Barra lateral-->
@@ -48,11 +50,10 @@
 		<a href="https://github.com/T-Royale">
 			<img src="https://skillicons.dev/icons?i=github&theme=dark" class="leftBar_icon" id="GitHub"/>
 		</a>
-		<a href="mailto:teomoralesvelasco@icloud.com?subject=Hello, I want to contact you">
+		<a href="mailto:teomoralesvelasco@icloud.com?subject=Hola, quiero contactarte">
 			<img src="https://skillicons.dev/icons?i=gmail&theme=dark" class="leftBar_icon" id="Gmail"/>
 		</a>
 	</div>
 	<!--/Barra lateral/-->
-	<script href="/Scripts/index.js"></script>
 </body>
 </html>

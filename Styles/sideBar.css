@@ -1,0 +1,30 @@
+#leftBar {
+    position: fixed;
+    top: 50%;
+    right: 1vw;
+    transform: translateY(-50%);
+    width: 4vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 0.5vw;
+}
+.leftBar_icon {
+	width: 3vw;
+	border-width: 2vw;
+	border-radius: 0.80vw;
+	flex-grow: 1;
+	transition: all 0.3s ease-in-out;
+}
+#GitHub:hover {
+	box-shadow: 0vw 0vw 2vw rgb(195, 0, 255);
+}
+#Discord:hover {
+	box-shadow: 0vw 0vw 2vw rgb(0, 132, 255);
+}
+#Gmail:hover {
+	box-shadow: 0vw 0vw 2vw rgb(255, 0, 0);
+}

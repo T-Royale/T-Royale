@@ -1,0 +1,18 @@
+.flag {
+	position: absolute;
+	top: 4vh;
+	right: 2vw;
+	height: 7.5vh;
+	width: auto;
+	border-radius: 0.5vh;
+}
+.hidden {
+	z-index: 0;
+}
+.shown {
+	z-index: 1;
+	transition: all 1s ease;
+}
+.shown:hover {
+	opacity: 0;
+}
