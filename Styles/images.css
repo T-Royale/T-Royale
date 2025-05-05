@@ -1,0 +1,14 @@
+#imageTeo {
+    position: absolute;
+    left: 70vw;
+    top: 20vh;
+    width: 20vw;
+    height: 40vh;
+    /*"Insertar Imágen"*/
+    background-color:dimgrey;
+    justify-content: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 5vw;
+}
