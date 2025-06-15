@@ -1,10 +1,10 @@
-#imageTeo {
+/*
+    #imageTeo {
     position: absolute;
     left: 70vw;
     top: 20vh;
     width: 20vw;
     height: 40vh;
-    /*"Insertar Imágen"*/
     background-color:dimgrey;
     justify-content: center;
     display: flex;
@@ -13,3 +13,4 @@
     font-size: 5vw;
     border-radius: 2.5%;
 }
+*/

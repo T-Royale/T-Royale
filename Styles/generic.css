@@ -1,10 +1,9 @@
 body {
 	background-color: #181818;
-	justify-self: center;
-	text-align: center;
 	font-family: AgaveNerdFont;
 }
 .title {
+	text-align: center;
 	font-size: 5.75vh;
 	color: #ffffff;
 }
@@ -17,10 +16,10 @@ body {
 	margin: 2.5vh;
 }
 #texto {
+	margin-left: 10vw;
 	color: #ffffff;
 	font-size: 3.5vh;
 	text-align: justify;
 	line-height: 150%;
-	padding-left: 3vw;
-	padding-right: 35vw; /*Padding para la imagen*/
+	padding-right: 10vw; /*35 cuando ponga la imágen*/
 }

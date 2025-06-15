@@ -1,11 +1,11 @@
 const techDescription = document.getElementById('techDescription');
 
 const techs = [
-	{ iconId: 'inoTechIcon', description: 'Descripción de Arduino (ino)' },
-	{ iconId: 'cTechIcon', description: 'Descripción de C' },
-	{ iconId: 'gitTechIcon', description: 'Descripción de Git' },
-	{ iconId: 'linuxTechIcon', description: 'Descripción de Linux' },
-	{ iconId: 'rpiTechIcon', description: 'Descripción de Raspberry Pi' }
+	{ iconId: 'inoTechIcon', description: 'Arduino: Proyectos de electrónica y prototipos' },
+	{ iconId: 'cTechIcon', description: 'C: Mi lenguaje de programación principal' },
+	{ iconId: 'gitTechIcon', description: 'Git: Control de versiones de mis proyectos' },
+	{ iconId: 'linuxTechIcon', description: 'Linux: Uso diario y administración' },
+	{ iconId: 'rpiTechIcon', description: 'Raspberry Pi: Servidores caseros y homelabs' }
 ];
 if(!techDescription){
 	alert('ERROR: No se ha encontrado el elemento "techDescription"')
@@ -22,10 +22,10 @@ if(!techDescription){
 			techDescription.innerText = tech.description;
 			switch (tech.iconId) {
 				case 'inoTechIcon':
-					techDescription.style.color = 'lightskyblue';
+					techDescription.style.color = 'aqua';
 					break;
 				case 'cTechIcon':
-					techDescription.style.color = '#0051FF';
+					techDescription.style.color = '#1578fa';
 					break;
 				case 'gitTechIcon':
 					techDescription.style.color = 'orangered';

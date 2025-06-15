@@ -1,5 +1,5 @@
 ## [Mi portfolio personal](https://t-royale.github.io/T-Royale/)
-### En construcción
+### Primer lanzamiento
 
 #### Este proyecto hace uso de los siguientes recursos de acceso público:
 + **[Fuentes Nerd Fonts](https://www.nerdfonts.com/)**: Tipografías e iconos.

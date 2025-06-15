@@ -8,6 +8,11 @@
 	100% { transform: rotate(0deg); }
 }
 
+p {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
 #hi {
 	color: rgb(9, 255, 0);
 	display: inline-block;
@@ -28,14 +33,29 @@
 #sobreMi {
 	color: #0084ff;
 }
+.puntosSobreMi{
+	padding-left: 2vw;
+}
 .puntosSobreMi::first-letter {
 	color: #0084ff;
 }
-#techStack {
+.puntosExperiencia {
+	padding-left: 2vw;
+}
+#experiencia {
 	color: yellow;
 }
-.puntosTech::first-letter {
+.puntosExperiencia::first-letter {
 	color: yellow;
+}
+#tecnologias{
+	color: #00ff40;
+}
+.puntoTecnologías {
+	margin-left: 2vw;
+}
+.puntoTecnologías::first-letter{
+	color: #00ff40;
 }
 #techIcons {	/*div donde están los iconos*/
 	display: flex;
@@ -46,20 +66,24 @@
 	justify-self: center;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-top: 1.5vh;
+	margin-top: 3vh;
 }
-.techIcon {		/*Propiedades para todos los iconos*/
-	width: 5vw;
+.techIcon {		/*Propiedades de cada uno de los iconos*/
+	width: 5.5vw;
 	transition: all 0.3s ease-in-out;
 }
 .techIcon:hover{
 	width: 7.5vw;
 }
-#techDescription { 
-	display: flex;
-	height: 10vh;
-	justify-content: center;
-	align-items: center;
+
+#techDescription {
+	color: white; 
 	transition: all 0.25s ease-in-out;
+	/*
+	align-items: center;
 	font-size: 5vh;
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+	*/
 }
