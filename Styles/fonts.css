@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'AgaveNerdFont';
-	src: url('/Fonts/AgaveNerdFont/AgaveNerdFont-Regular.ttf') format('truetype');
+	src: url('Fonts/AgaveNerdFont/AgaveNerdFont-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'AgaveNerdFont';
-	src: url('/Fonts/AgaveNerdFont/AgaveNerdFont-Bold.ttf') format('truetype');
+	src: url('Fonts/AgaveNerdFont/AgaveNerdFont-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: bold;
 }
