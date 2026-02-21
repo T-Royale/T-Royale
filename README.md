@@ -9,4 +9,4 @@
 # 👨‍💻 Tech Stack:
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer">[![My Skills](https://skillicons.dev/icons?i=arduino,linux&theme=light)](https://skillicons.dev)
 # 📊 Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=T-Royale&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=T-Royale&layout=compact&theme=tokyonight)
